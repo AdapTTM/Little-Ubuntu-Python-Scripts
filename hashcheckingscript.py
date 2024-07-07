@@ -24,5 +24,5 @@ if hashes == hashes2:
 else:
     print("md5 hash has changed, if this is legitimate, please update baseline hash file")
     
-#This script checks the contents of a file named passwordhash.txt to a new file it creates named newhash.txt. If the file has been changed in any way the script since the original passwordhas.txt file was created
+#This script checks the contents of a file named passwordhash.txt to a new file it creates named newhash.txt. If the file has been changed in any way since the original passwordhas.txt file was created
 #the script will alert the user. 
