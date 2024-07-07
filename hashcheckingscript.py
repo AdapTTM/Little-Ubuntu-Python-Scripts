@@ -1,6 +1,9 @@
 #!/usr/bin/python
 import os
 
+#This script requires some initial setup to perform correctly, run the command md5sum /etc/shadow > passwordhash.txt in the / directory (or change the code on line 12 to reflect the correct file path), this will 
+#give the script the baseline hash value to check against. 
+
 #run md5sum on shadow file and save output to newhash.txt
 runhash = ("md5sum /etc/shadow > newhash.txt")  
 newfile = os.system(runhash)
